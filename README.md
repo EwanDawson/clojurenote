@@ -15,13 +15,11 @@ A library that wraps the [official Evernote Java API](https://github.com/evernot
 Installation
 -------------
 
-Include the following dependency in your `project.clj` file:
+Include the following dependency in your `deps.edn` file:
 
 ```clojure
-:dependencies [[clojurenote "0.4.0"]]
+EwanDawson/clojurenote {:git/url "https://github.com/EwanDawson/clojurenote" :sha "1df094e825ab7b4c44256ca03e7dd19a1d267e12" :deps/root "clojurenote" :deps/manifest :deps}
 ```
-
-[![Build Status](https://travis-ci.org/mikebroberts/clojurenote.png?branch=master)](https://travis-ci.org/mikebroberts/clojurenote)
 
 Prerequisites
 ---------------
