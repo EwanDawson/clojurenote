@@ -1,0 +1,4 @@
+{:deps
+ {org.scribe/scribe {:mvn/version "1.3.5"}
+  com.evernote/evernote-api {:mvn/version "1.25.1"}}
+ :paths ["src"]}
